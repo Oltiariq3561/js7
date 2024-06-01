@@ -57,195 +57,99 @@
 //         break;
 // }
 
-
 // 2-masala
-// function name() {
-//     let a = +prompt('ball ni kiriting');
-
-// switch (a) {
-//     case 90:
-//     case 91:
-//     case 92:
-//     case 93:
-//     case 94:
-//     case 95:
-//     case 96:
-//     case 97:
-//     case 98:
-//     case 99:
-//     case 100:
+// let a =+prompt('ballni yozing')
+// switch (true) {
+//     case a>=90 && a<=100:
 //         console.log('A');
 //         break;
-//     case 80:
-//     case 81:
-//     case 82:
-//     case 83:
-//     case 84:
-//     case 85:
-//     case 86:
-//     case 87:
-//     case 88:
-//     case 89:
-//     case 90:
+//     case a >= 80 && a<90:
 //         console.log('B');
 //         break;
-//     case 70:
-//     case 71:
-//     case 72:
-//     case 73:
-//     case 74:
-//     case 75:
-//     case 76:
-//     case 77:
-//     case 78:
-//     case 79:
-//     case 80:
+//     case a >+ 70 && a<80:
 //         console.log('C');
 //         break;
-
-//     case 60:
-//     case 61:
-//     case 62:
-//     case 63:
-//     case 64:
-//     case 65:
-//     case 66:
-//     case 67:
-//     case 68:
-//     case 69:
-//     case 70:
+//     case a >= 60 && a<70:
 //         console.log('D');
 //         break;
-//     case 0:
-//     case 1:
-//     case 2:
-//     case 3:
-//     case 4:
-//     case 5:
-//     case 6:
-//     case 7:
-//     case 8:
-//     case 9:
-//     case 10:
-//     case 11:
-//     case 12:
-//     case 13:
-//     case 14:
-//     case 15:
-//     case 16:
-//     case 17:
-//     case 18:
-//     case 19:
-//     case 20:
-//     case 21:
-//     case 22:
-//     case 23:
-//     case 24:
-//     case 25:
-//     case 26:
-//     case 27:
-//     case 28:
-//     case 29:
-//     case 30:
-//     case 31:
-//     case 32:
-//     case 33:
-//     case 34:
-//     case 35:
-//     case 36:
-//     case 37:
-//     case 38:
-//     case 39:
-//     case 40:
-//     case 41:
-//     case 42:
-//     case 43:
-//     case 44:
-//     case 45:
-//     case 46:
-//     case 47:
-//     case 48:
-//     case 49:
-//     case 50:
-//     case 51:
-//     case 52:
-//     case 53:
-//     case 54:
-//     case 55:
-//     case 56:
-//     case 57:
-//     case 58:
-//     case 59:
-//     case 60:
+//     case a >= 0  && a<60:
 //         console.log('F');
 //         break
 //     default:
 //         break;
 // }
 
-// }
-// name()
-
 // 3-masala
-// let a = + prompt('son')
 
-// switch (a) {
-//     case 5:
-//     case 6:
-//     case 7:
-//     case 8:
-//     case 9:
-//     case 10:
-//     case 10:
-//     case 11:
-//     case 12:
-//         console.log('xayrli tong');
+// function vaqt() {
+    
+//     let a = + prompt('vaqt kiriting');
+
+// switch (true) {
+//     case a>5 && a<=12:
+//         console.log('xayrli tong!!!');
 //         break;
-//     case 13:
-//     case 14:
-//     case 15:
-//     case 16:
-//     case 17:
-//         console.log('xayrli kun');
+//     case a>12 && a<=17:
+//         console.log('xayrli kun!!!');
 //         break;
-
-//     case 18:
-//     case 19:
-//     case 20:
-//     case 21:
-//         console.log('xayrli kech');
+//     case a>17 && a<=21:
+//     console.log('xayrli kech!!!');
+//     break;
+//     case a>21 && a<=24:
+//         console.log('xayrli tun!!!');
 //         break;
-
-//     case 22:
-//     case 23:
-//     case 24:
-//     case 0:
-//     case 1:
-//     case 2:
-//     case 3:
-//     case 4:
-//     case 5:
-//         console.log('xayrli tun');
-//         break;
-
-
 //     default:
-//         console.log('24 soat boladi xolos');
+//         console.log('bunday vaqt mavjud emas 0 dan 24 gacha son yozing');
 //         break;
+
+        
 // }
+// }
+// vaqt()
+// 4-masala
+
+// let raqam = prompt('raqam yozing');
+
+// function togriRaqam() {
+//     while(true){
+//         if(raqam.toLowerCase()==5){
+//          alert(raqam);
+//          break;
+//         }else{
+//         raqam = prompt('raqam yozing')
+//         }
+//     }
+// }
+
+// togriRaqam();
 
 // 5-masala
 
-function name() {
-    
-let a = 0;
+// function name() {
+//     let a = 20;
+//     let i = 2;
+//     let sum = 0;
+//     while (i <= a) {
+//         console.log(i);
+//         i+=2;
+//     }
 
-while (a<=20) {
-    if (a%2==0) {
-        console.log(a);
-      
-    }
-      a++;
-}
+// }
+// name()
 
-}
+// 6-masala
+
+// let soz = prompt('soz yozing');
+
+// function togriSoz() {
+//     while(true){
+//         if(soz.toLowerCase()=="stop"){
+//          alert(soz);
+//          break;
+//         }else{
+//         soz = prompt('soz yozing')
+//         }
+//     }
+// }
+
+// togriSoz();
